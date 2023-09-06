@@ -33,6 +33,22 @@ ul, li{
   width: 20px;
 }
 
+/* MAIN */
+.page-content{
+  padding: 50px 0px;
+}
+
+.img-person{
+  max-width: 350px;
+  padding: 40px 0;
+}
+
+
+
+
+
+
+
 .container{
   margin: 0 auto;
   width: 1200px;
@@ -48,6 +64,12 @@ ul, li{
   align-items: center;
 }
 
+.col-4{
+  flex-basis: calc((100% / 12) * 4);
+}
+
+
+
 
 
 /* DEBUG */
@@ -60,6 +82,13 @@ ul, li{
 .debug .page-header .col{
   background-color: #daa520;
   border: 2px dotted black;
+  padding: 20px;
+  color: white;
+}
+
+.debug .col-4{
+  background-color: cadetblue;
+  border: 2px solid black;
   padding: 20px;
   color: white;
 }
