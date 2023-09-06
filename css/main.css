@@ -43,6 +43,21 @@ ul, li{
   padding: 40px 0;
 }
 
+figure > img{
+  display: block;
+  width: 100%;
+
+}
+
+.card__image{
+  position: relative;
+}
+
+.heart-icon{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
 
 
 
