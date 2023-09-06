@@ -11,6 +11,9 @@ ul, li{
 
 /* HEADER */
 .page-header{
+  width: 100%;
+  position: fixed;
+  top: 0px;
   background-color: rgb(255, 105, 0);
   padding: 25px 0px;
 }
@@ -34,6 +37,10 @@ ul, li{
 }
 
 /* MAIN */
+main{
+  margin: 100px 0;
+}
+
 .page-content{
   padding: 50px 0px;
 }
