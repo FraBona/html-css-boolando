@@ -3,3 +3,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+ul, li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* HEADER */
+.page-header{
+  background-color: rgb(255, 105, 0);
+  padding: 25px 0px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.menu a:visited{
+  text-decoration: none;
+}
+.menu__items{
+  font-size: 18px;
+}
+.logo{
+  width: 150px;
+}
+.icon-header{
+  width: 20px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between{
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* DEBUG */
+
+.debug .page-header{
+  padding: 10px;
+  background-color: cornflowerblue;
+}
+
+.debug .page-header .col{
+  background-color: #daa520;
+  border: 2px dotted black;
+  padding: 20px;
+  color: white;
+}
